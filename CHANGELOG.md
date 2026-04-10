@@ -1,5 +1,18 @@
 # Changelog - Akkio's Consume Helper
 
+
+## [1.1.4] - 2026-04-10
+
+### Added
+- **New buffs**: Multiple new buffs can now be tracked
+
+### Enhanced
+- **Reapplying buffs**: Buffs can now be reapplied even if already existing
+- **Icon zoom**: Buff icons are now have a 30% zoom
+
+### Fixed
+- **Buff tracker**: Buffs that were not recognized before are now properly detected
+
 ## [1.1.3] - 2025-08-06 - TURTLE WOW CONSUMABLES EXPANSION
 
 ### Major Content Addition
