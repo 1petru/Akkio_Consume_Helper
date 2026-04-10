@@ -37,7 +37,7 @@ Keep in mind that timers will only show if the buff is applied through the addon
 1. Extract to `Interface/AddOns/`
 2. Rename folder to `Akkio_Consume_Helper`
 3. Restart the game
-4. Click the minimap button or type `/act` to open the addon
+4. Click the minimap button or type `/act` or `/ach` to open the addon
 
 ---
 
