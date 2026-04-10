@@ -45,7 +45,7 @@ local function ResetToDefaults()
                 relativeTo = "UIParent",
                 relativePoint = "CENTER",
                 xOffset = 0,
-                yOffset = 400
+                yOffset = 32
             }
         }
     }
@@ -1936,7 +1936,7 @@ BuildBuffStatusUI = function()
                 relativeTo = "UIParent",
                 relativePoint = "CENTER",
                 xOffset = 0,
-                yOffset = 32
+                yOffset = 400
             }
         end
 
