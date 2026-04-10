@@ -45,7 +45,7 @@ local function ResetToDefaults()
                 relativeTo = "UIParent",
                 relativePoint = "CENTER",
                 xOffset = 0,
-                yOffset = 32
+                yOffset = 400
             }
         }
     }
@@ -126,7 +126,7 @@ local function MigrateSettings()
                 relativeTo = "UIParent",
                 relativePoint = "CENTER",
                 xOffset = 0,
-                yOffset = 32
+                yOffset = 400
             }
         end
 
@@ -154,7 +154,7 @@ if not Akkio_Consume_Helper_Settings.settings then
             relativeTo = "UIParent",
             relativePoint = "CENTER",
             xOffset = 0,
-            yOffset = 32
+            yOffset = 400
         }
     }
 end
@@ -203,7 +203,7 @@ if not Akkio_Consume_Helper_Settings.settings.framePosition then
         relativeTo = "UIParent",
         relativePoint = "CENTER",
         xOffset = 0,
-        yOffset = 32
+        yOffset = 400
     }
 end
 if not Akkio_Consume_Helper_Settings.onlyForShopping then
