@@ -31,8 +31,9 @@ A buff and consumable tracking addon for Turtle WoW (WoW 1.12).
 > `WTF/Account/<YOUR_ACC_NAME>/<YOUR_SERVER>/<YOUR_CHAR_NAME>/SavedVariables/`
 
 1. Extract to `Interface/AddOns/`
-2. Restart the game
-3. Click the minimap button to open the addon
+2. Rename folder to `Akkio_Consume_Helper`
+3. Restart the game
+4. Click the minimap button or type `/act` to open the addon
 
 ---
 
