@@ -4,6 +4,8 @@ A buff and consumable tracking addon for Turtle WoW (WoW 1.12).
 
 Now allows for buffs to be applied even if already active.
 
+Keep in mind that timers will only show if the buff is applied through the addon. Applying buffs from bags or actionbars will not show any timer.
+
 ## Buff Status Bar
 
 - **Configurable icon bar** — track any combination of buffs and consumables at a glance
