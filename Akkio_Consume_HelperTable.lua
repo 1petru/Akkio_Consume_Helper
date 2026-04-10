@@ -2646,27 +2646,32 @@ end
 -- ============================================================================
 
 SLASH_AKKIOCONSUME1 = "/act"
+SLASH_AKKIOCONSUME2 = "/ach"
 SlashCmdList["AKKIOCONSUME"] = function()
     BuildMainFrame(2)
 end
 
 SLASH_AKKIOSETTINGS1 = "/actsettings"
+SLASH_AKKIOSETTINGS2 = "/achsettings"
 SlashCmdList["AKKIOSETTINGS"] = function()
     BuildMainFrame(1)
 end
 
 SLASH_AKKIOBUFFSTATUS1 = "/actbuffstatus"
+SLASH_AKKIOBUFFSTATUS2 = "/achbuffstatus"
 SlashCmdList["AKKIOBUFFSTATUS"] = function()
     BuildBuffStatusUI()
 end
 
 SLASH_AKKIOWELCOME1 = "/actwelcome"
+SLASH_AKKIOWELCOME2 = "/achwelcome"
 SlashCmdList["AKKIOWELCOME"] = function()
     local welcomeFrame = CreateWelcomeWindow()
     welcomeFrame:Show()
 end
 
 SLASH_AKKIORESET1 = "/actreset"
+SLASH_AKKIORESET2 = "/achreset"
 SlashCmdList["AKKIORESET"] = function()
     if not resetConfirmFrame then
         BuildResetConfirmationUI()
@@ -2675,6 +2680,7 @@ SlashCmdList["AKKIORESET"] = function()
 end
 
 SLASH_AKKIODEBUG1 = "/actdebug"
+SLASH_AKKIODEBUG2 = "/achdebug"
 SlashCmdList["AKKIODEBUG"] = function()
     DEFAULT_CHAT_FRAME:AddMessage("|cffADD8E6=== BUFF DEBUG SCAN ===|r")
     DEFAULT_CHAT_FRAME:AddMessage("|cffFFFFFFCurrently active buffs on player:|r")
@@ -2810,6 +2816,7 @@ SlashCmdList["AKKIODEBUG"] = function()
 end
 
 SLASH_AKKIOCLEAR1 = "/actclear"
+SLASH_AKKIOCLEAR2 = "/achclear"
 SlashCmdList["AKKIOCLEAR"] = function()
     -- Clear the buff tracker
     wipeTable(buffTracker)
@@ -2822,6 +2829,7 @@ SlashCmdList["AKKIOCLEAR"] = function()
 end
 
 SLASH_AKKIOHOVERFIX1 = "/acthoverfix"
+SLASH_AKKIOHOVERFIX2 = "/achhoverfix"
 SlashCmdList["AKKIOHOVERFIX"] = function()
     if not buffStatusFrame then
         DEFAULT_CHAT_FRAME:AddMessage("|cffFF6B6BAkkio Consume Helper:|r No buff status frame exists.")
