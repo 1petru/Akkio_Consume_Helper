@@ -21,11 +21,11 @@ Now allows for buffs to be applied even if already active.
 
 | Command | Action |
 |---|---|
-| `/act` | Open Select Buffs tab |
-| `/actsettings` | Open Settings tab |
-| `/actbuffstatus` | Force refresh buff bar |
-| `/actreset` | Reset all settings to defaults |
-| `/actwelcome` | Show welcome screen |
+| `/act` or `/ach` | Open Select Buffs tab |
+| `/actsettings` or `/achsettings` | Open Settings tab |
+| `/actbuffstatus` or `/achbuffstatus` | Force refresh buff bar |
+| `/actreset` or `/achreset` | Reset all settings to defaults |
+| `/actwelcome` or `/achwelcome` | Show welcome screen |
 
 ## Installation
 
