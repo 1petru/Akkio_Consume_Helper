@@ -676,9 +676,11 @@ local function UpdateBuffStatusOnly()
             local iconTexture = icon:GetNormalTexture()
             if iconTexture then
                 if hasBuff then
+                    iconTexture:SetDesaturated(false)
                     iconTexture:SetVertexColor(1, 1, 1, 1)
                 else
-                    iconTexture:SetVertexColor(1, 0, 0, 1)
+                    iconTexture:SetDesaturated(true)
+                    iconTexture:SetVertexColor(1, 1, 1, 1)
                 end
             end
 
@@ -2229,9 +2231,11 @@ BuildBuffStatusUI = function()
         if nt then
             nt:SetTexture(data.icon)
             if hasBuff then
+                nt:SetDesaturated(false)
                 nt:SetVertexColor(1, 1, 1, 1)
             else
-                nt:SetVertexColor(1, 0, 0, 1)
+                nt:SetDesaturated(true)
+                nt:SetVertexColor(1, 1, 1, 1)
             end
         end
 
